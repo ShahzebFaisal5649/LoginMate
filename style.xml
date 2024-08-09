@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">#2196F3</item> <!-- Light Blue -->
+        <item name="colorPrimaryDark">#1976D2</item> <!-- Dark Blue -->
+        <item name="colorAccent">#FFC107</item> <!-- Amber -->
+        <item name="android:windowBackground">#FFFFFF</item> <!-- White Background -->
+    </style>
+
+    <!-- Text Appearance Styles -->
+    <style name="TextAppearance.AppTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Body" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Widget Styles -->
+    <style name="Widget.AppButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">#2196F3</item> <!-- Light Blue Button -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.AppEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="AppDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowMinWidthMajor">280dp</item>
+    </style>
+
+</resources>
